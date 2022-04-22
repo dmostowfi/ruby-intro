@@ -31,5 +31,25 @@ else
 end
 
 # Elsif Conditional Logic
+your_team_score = 3
+other_team_score = 3
+
+if your_team_score > other_team_score
+    puts "You win!"
+elsif your_team_score == other_team_score
+    puts "You tied."
+else
+    puts "You lose!"
+end
 
 # Combining Expressions
+
+temp = 91
+precip = 0
+
+if temp >= 65 && temp <= 90 || precip == 0
+    puts "It's nice outside!"
+end
+
+# && = and 
+# || = or
