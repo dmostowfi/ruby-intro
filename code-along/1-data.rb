@@ -21,7 +21,14 @@ puts "tacos"*3
 puts "#{3+2} tacos" #the #{} allows you to put in calculations, but still turn it into a string
 
 # Variables
+quantity = 3+3+3
+food = "tacos"
+puts "quantity = #{quantity}"
+puts "#{quantity} #{food}"
 
 # Combine strings and variables
 
 # String manipulation
+puts "Hello".upcase
+puts "Hello".reverse
+puts "Hello".swapcase
