@@ -30,3 +30,8 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 puts bitcoin_data
+
+#your job is to extra one piece of data from this hash - how much is your bitcoin worth? 
+
+usd_value = bitcoin_data["bpi"]["USD"]["rate_float"]
+puts "Your bitcoin is worth $#{usd_value}"
