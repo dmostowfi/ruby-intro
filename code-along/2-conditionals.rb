@@ -15,8 +15,20 @@ puts 3>2
 puts 3<2
 
 # If Conditional Logic
+if 3>2
+    puts "yep, 3 is great than 2"
+end
+
+user_entered_password = "tacos"
+real_password = "secret"
 
 # If/Else Conditional Logic
+
+if user_entered_password == real_password
+    puts "You're In!"
+else 
+    puts "Try again, hacker!"
+end
 
 # Elsif Conditional Logic
 
