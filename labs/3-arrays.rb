@@ -15,3 +15,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+deannas_list = ["cookies", "muffins", "sangwich"]
+peymans_list = ["cucumbers", "water", "calamad", "sangwich"]
+joons_list = deannas_list + peymans_list
+puts joons_list.sort
+puts joons_list.uniq
+
+#or do it with one line of code:
+#puts(deannas_list + peymans_list).sort.uniq
+
+
