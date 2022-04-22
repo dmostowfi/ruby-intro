@@ -28,10 +28,11 @@ bitcoin = gets.chomp #type a number into the terminal e.g., 5
 # 2. The value will be a string, so you'll want to convert it to a Float.
 bitcoin = bitcoin.to_f
 
-# 3. inspect the bitcoin_data hash
-puts bitcoin_data
+# 3. uncomment to inspect the bitcoin_data hash
+#puts bitcoin_data
 
 #your job is to extra one piece of data from this hash - how much is your bitcoin worth? 
 
 usd_value = bitcoin_data["bpi"]["USD"]["rate_float"]
-puts "Your bitcoin is worth $#{usd_value}"
+puts "One bitcoin is worth $#{usd_value}"
+puts "Your bitcoin is worth $#{usd_value*bitcoin}"
