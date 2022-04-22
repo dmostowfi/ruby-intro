@@ -23,10 +23,10 @@ bitcoin_data = JSON.parse(response)
 
 # 1. Get input from a user using gets.chomp.
 puts "How much bitcoin do you have?"
-bitcoin = gets.chomp
+bitcoin = gets.chomp #type a number into the terminal e.g., 5
 
 # 2. The value will be a string, so you'll want to convert it to a Float.
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-# puts bitcoin_data
+puts bitcoin_data
